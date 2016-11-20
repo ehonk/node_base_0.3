@@ -1,0 +1,45 @@
+doctype
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')   
+    // stylesheet wichtig fürs design
+
+    link(rel='icon', type='image/ico', href='/images/favicon.ico')
+
+    script(src='/javascript/jquery-3.1.1.min.js', type='text/javascript')
+
+    block scripts
+  body
+  #main
+    div#header
+      div.two-column
+        div.cell-left
+          
+        div.cell-right
+          p logo hier
+
+    div#wrapper
+      div.css-table
+        div.two-column-menu
+          div.cell-left-menu
+            div#navigation
+              ul.toplevel
+
+                  li
+                    a(href="/Part1")  Part 1
+                  li
+                    a(href="/Part2") Part 2 
+                  li
+                    a(href="/Part3") Part 3 
+                  li
+                    a(href="/Part4") Part 4 
+
+          div.cell-right-content
+            div.userinfo
+              h1 userinfo
+              block content
+    div#footer
+      div.css-table
+        div.one-column
+          div.cell
