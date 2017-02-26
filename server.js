@@ -41,7 +41,7 @@ mLogger.writeLog("Start me up");
 
 // listen (start app with node server.js) ======================================
 if (!module.parent) {
-  app.listen(80);
+  app.listen(8080);
   console.log('++++++++++++++++  node server running +++++++++++++++++++');
   console.log("App listening on port 8080");
   console.log("< Info > NodeJS Version: " + process.version);
