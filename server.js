@@ -38,6 +38,12 @@ require('./app/routes')(app);
 mLogger.writeLog("Start me up");
 //mLogger.showCompleteLog();
 
+/**
+ * @param {string } tripple
+
+ * This is a description of the foo function. */
+function foo(tripple) {
+}
 
 // listen (start app with node server.js) ======================================
 if (!module.parent) {
