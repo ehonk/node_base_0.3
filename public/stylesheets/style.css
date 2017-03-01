@@ -108,7 +108,8 @@ body {
 #wrapper {
   width: 920px;
   text-align: left;
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin-left: 50px;
   margin-right: auto;
   /* background: #fff; */
   background: #f00;
@@ -119,7 +120,8 @@ body {
   font-size: 12px;
   width: 150px;
   text-align: center;
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin-left: 50px;
   margin-right: auto;
 }
 #navigation ul {
@@ -333,6 +335,7 @@ acronym {
 div#wrapper div.css-table {
   width: 100%;
   display: table;
+  border: 1px solid black;
 }
 div#wrapper div.css-table div.two-column-menu {
   display: table-row;
@@ -343,7 +346,8 @@ div#wrapper div.css-table div.two-column-menu div.cell-left-menu {
   width: 100%;
   padding: 5px;
   /*background: #fff;*/
-  background: #ffc0bb
+  background: #ffc0bb;
+  border: 1px solid black;
 /*D7D3D2*/
 }
 div#wrapper div.css-table div.two-column-menu div.cell-right-content {
@@ -352,6 +356,7 @@ div#wrapper div.css-table div.two-column-menu div.cell-right-content {
   width: 100%;
   padding: 10px;
   background: #a0cfec;
+  border: 1px solid black;
 }
 div#wrapper div.css-table div.two-column-menu div.cell-right-content div.userinfo {
   float: right;
@@ -528,12 +533,14 @@ div#wrapper div.css-table div.two-column-menu div.cell-right-content form .one-c
 div#header {
   background: #fff;
   width: 920px;
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin-left: 50px;
   margin-right: auto;
   margin-top: 5px;
   padding: 20px 20px 5px 20px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  border: 1px solid black;
 }
 div#header div.two-column {
   width: 100%;
@@ -557,12 +564,14 @@ div#header div.two-column div.cell-right {
 div#footer {
   background: #fff;
   width: 920px;
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin-left: 50px;
   margin-right: auto;
   padding: 20px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   text-align: left;
+  border: 1px solid black;
 }
 div#footer ul {
   list-style: none;
