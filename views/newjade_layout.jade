@@ -1,0 +1,28 @@
+doctype
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/newstyle.css')   
+    // stylesheet wichtig fürs design
+    link(rel='icon', type='image/ico', href='/images/favicon.ico')
+    script(src='/javascript/jquery-3.1.1.min.js', type='text/javascript')
+    block scripts
+
+  body
+  #main
+    div#header
+      p dhe
+      div.three-column
+        p tc
+        div.cell-left
+          p left
+        div.cell-middle
+          p middle
+        div.cell-right
+          p right
+
+block scripts
+  script(type='text/javascript', language='javascript')
+   $(function() {
+     
+   })

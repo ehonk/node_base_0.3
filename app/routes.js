@@ -54,7 +54,7 @@ module.exports = function (app) {
 
    // JSimple Jade Teil
     app.get('/simplejade', function (req, res) {
-        console.log("< Info >  GET /index RENDER");
+        console.log("< Info >  GET /simplejade RENDER");
         res.render('simplejade_index',
             { title: 'Home' }
         )
@@ -62,8 +62,16 @@ module.exports = function (app) {
 
     // Hydro Jade Teil
     app.get('/hvjade', function (req, res) {
-        console.log("< Info >  GET /index RENDER");
+        console.log("< Info >  GET /hvjade RENDER");
         res.render('hvjade_index',
+            { title: 'Home' }
+        )
+    })
+
+    // New Jade Interface
+    app.get('/newjade', function (req, res) {
+        console.log("< Info >  GET /newjade RENDER");
+        res.render('newjade_layout',
             { title: 'Home' }
         )
     })

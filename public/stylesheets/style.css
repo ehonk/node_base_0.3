@@ -549,15 +549,18 @@ div#header div.two-column {
   margin-right: auto;
   display: table;
   text-align: right;
+  border: 1px solid black;
 }
 div#header div.two-column div.cell-left {
   display: table-cell;
   vertical-align: top;
   text-align: left;
+  border: 1px solid black;
 }
 div#header div.two-column div.cell-right {
   display: table-cell;
   vertical-align: top;
+  border: 1px solid black;
 }
 /* Footer
 -----------------------------------------------------------------------------*/
