@@ -75,5 +75,11 @@ module.exports = function (app) {
             { title: 'Home' }
         )
     })
+
+    // New Jade Interface
+    app.get('/bootstrap', function (req, res) {
+        console.log("< Info > GET Slash Call");
+        res.sendfile('./views/bootstrap.html'); // load the single view file (angular will handle the page changes on the front-end)
+    });  
 };
 

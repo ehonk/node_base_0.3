@@ -168,12 +168,38 @@ acronym {
 }
 /* CSS Tables
 -----------------------------------------------------------------------------*/
+div#wrapper {
+  background: #fff;
+  border: 1px solid black;
+}
+
+div#wrapper div.css-table {
+  width: 100%;
+  display: table;
+  border: 1px solid black;
+}
+div#wrapper div.css-table div.two-column-menu {
+  display: table-row;
+}
+div#wrapper div.two-column-menu div.cell-left-menu {
+  display: table-cell;
+  width: 100px;
+  vertical-align: top;
+  text-align: left;
+  border: 1px solid black;
+  background: lightblue;
+}
+div#wrapper div.two-column-menu div.cell-right-content {
+  display: table-cell;
+  vertical-align: top;
+  border: 1px solid black;
+  background: white;
+}
 
 /* Header
 -----------------------------------------------------------------------------*/
 div#header {
   background: #fff;
-  padding: 20px 20px 5px 20px;
   border: 1px solid black;
 }
 div#header div.three-column {
@@ -184,7 +210,6 @@ div#header div.three-column {
   text-align: right;
   border: 1px solid black;
   background: #ff0000;
-
 }
 
 div#header div.three-column div.cell-left {
@@ -210,3 +235,30 @@ div#header div.three-column div.cell-right {
 
 /* Footer
 -----------------------------------------------------------------------------*/
+div#footer {
+  background: #fff;
+  display: table;
+  text-align: left;
+  border: 1px solid black;
+  width: 100%;
+  display: table;
+}
+div#footer div.two-column {
+  display: table-row;
+}
+
+div#footer div.two-column div.cell-left-footer {
+  display: table-cell;
+  width: 100px;
+  vertical-align: top;
+  text-align: left;
+  border: 1px solid black;
+  background: #931234;
+}
+div#footer div.two-column div.cell-right-footer {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  border: 1px solid black;
+  background: lightyellow;
+}

@@ -6,6 +6,7 @@
   "author": "Scotch",
   "dependencies": {
     "body-parser": "^1.4.3",
+    "bootstrap": "^3.3.7",
     "express": "^4.13.4",
     "jade": "^1.0.4",
     "jsdoc": "^3.4.3",
