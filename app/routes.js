@@ -81,5 +81,13 @@ module.exports = function (app) {
         console.log("< Info > GET Slash Call");
         res.sendfile('./views/bootstrap.html'); // load the single view file (angular will handle the page changes on the front-end)
     });  
+
+    // New Jade Interface
+    app.get('/testjade', function (req, res) {
+        console.log("< Info >  GET /newjade RENDER");
+        res.render('testjade',
+            { title: 'Home' }
+        )
+    })
 };
 

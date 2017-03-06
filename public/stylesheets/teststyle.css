@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%; 
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: table; 
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;   
+    text-align: center;
+}
+
+#header{   
+    display: table-row;   
+    width: 100%;
+    height:50px; 
+    border:solid 2px #aaa;
+}
+
+#headerleft {   
+    display: table-cell;   
+    width: 50px;
+    border-radius:10px; 
+    border:solid 2px #bbb;
+}
+
+#headerright{   
+    display: table-cell;   
+    width: 100%;
+    border-radius:10px; 
+    border:solid 2px #ccc;
+}
+
+#content {   
+    display: table-row;   
+    width: 100%;
+    border:solid 2px darkred;
+}
+
+
+#contentleft {   
+    display: table-cell;   
+    width: 50px;
+    border-radius:10px; 
+    border:solid 2px blue;
+}
+
+#contentright {   
+    display: table-cell;   
+    width: 100%;
+    border-radius:10px; 
+    border:solid 2px green;
+}
+
+#footer{   
+    display: table-row;   
+    width: 100%;
+    height:50px; 
+    border:solid 2px yellow;
+}
+
+
+#footerleft {   
+    display: table-cell;   
+    width: 50px;
+    border-radius:10px; 
+    border:solid 2px greenyellow;
+}
+
+#footerright {   
+    display: table-cell;   
+    width: 100%;
+    border-radius:10px; 
+    border:solid 2px yellow;
+}
+
+
+/*
+#container > div {   
+    display: table-row;   
+    width: 100%;
+}
+
+#container > div > div {   
+    display: table-cell;   
+    width: 100%;
+    border-radius:10px; 
+
+}
+
+#header > div {
+    height:50px; 
+    border:solid 2px #aaa;
+}
+
+#content > div {
+    height: 100%;    
+    background:#f0f4f0; 
+    border:solid 2px #5a5;
+}*/
