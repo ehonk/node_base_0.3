@@ -37,10 +37,11 @@ module.exports = function (app) {
     // application -------------------------------------------------------------
 
     // HTML Teil
+    /*
     app.get('/to', function (req, res) {       // This will load the single index.html file when we hit localhost:8080
         console.log("< Info > GET Slash Call");
         res.sendfile('./views/index.html'); // load the single view file (angular will handle the page changes on the front-end)
-    });
+    });*/
 
     app.get('/overview', function (req, res) { console.log("< Info >  GET /overview"); });
     app.get('/api/todos', function (req, res) { console.log("< Info >  GET /api/todos"); });
@@ -89,5 +90,31 @@ module.exports = function (app) {
             { title: 'Home' }
         )
     })
+
+    // New Jade Interface
+    app.get('/bs_starter_index', function (req, res) {
+        console.log("< Info > GET Slash Call");
+        res.sendfile('./views/bs_starter_index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    }); 
+
+    // New Jade Interface
+    app.get('/bs_theme_index', function (req, res) {
+        console.log("< Info > GET Slash Call");
+        res.sendfile('./views/bs_theme_index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    }); 
+
+    // New Jade Interface
+    app.get('/bs_dashboard_index', function (req, res) {
+        console.log("< Info > GET Slash Call");
+        res.sendfile('./views/bs_dashboard_index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    }); 
+
+    // New Jade Interface
+    app.get('/index', function (req, res) {
+        console.log("< Info > GET Slash Call");
+        res.sendfile('./views/index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    }); 
+
+
 };
 
